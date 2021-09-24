@@ -1,0 +1,70 @@
+/* Penulisan css Inline*/
+/* 
+#ukuran
+{ px => kecil, pt => sedang, em => besar }
+
+- bottom -> jarak bawah & tinggi
+- top -> atas
+- right -> kanan & lebar
+- left -> kiri
+position: relative; -> merubah posisi property -> wajib digunakan untuk memimdahkan posisi
+#Posisi
+- kiri => left -> bergeser ke kanan
+- kanan => right -> bergeser ke kiri
+- tengah => center -> ketengah
+- rata kanan dan kiri => justify
+
+#margin
+- margin-top => jarak atas | bergeser ke atas
+*/
+/* 1. margin -> memberikan jarak antara suatu elemen Html */
+..box{
+    background-color: rgb(37, 221, 37);
+    color: greenyellow;
+    width: 100px; /*lebar*/
+    height: 100px; /*tinggi*/
+    margin-bottom: 20px; /*bergeser ke bawah & jarak bawah*/
+}
+..div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+body{
+    /* background-attachment */
+    background-image: url('img/img4.jpg'); /*background gambar*/
+    /* background-color: hotpink; -> background warna*/
+    /* background-repeat: repeat-y; (repeat-y => vertikal)(repeat-x => horizontal) */
+   
+   /* background-position */
+    background-repeat: no-repeat; /*memunculkan besar photo asli*/
+    background-attachment: fixed; /*mengunci photo*/
+    background-position: center; /*menampilkan photo ke tengah*/
+}
+#box{
+    /* position relative */
+    background:rgb(37, 221, 37);
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    left: 100px;
+    position: relative; /*menonaktifkan posisi statis*/
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    top: 100px;
+    left: 100px;
+    position: relative;
+}
+.tabel{
+    width: 700px;
+    height: 500px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background: rgb(32, 219, 141);
+}
